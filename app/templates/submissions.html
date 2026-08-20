@@ -1,0 +1,9 @@
+<!doctype html>
+<html><head><title>Audio Submissions</title><link rel="stylesheet" href="/static/style.css"></head>
+<body><main><h1>Audio submissions</h1><p><a href="/">← New submission</a></p>
+<table><tr><th>Person</th><th>Phone</th><th>Audio</th><th>Duration</th><th>Sample rate</th><th>Bitrate</th><th>Loudness</th><th>Quality</th></tr>
+{% for r in rows %}
+<tr><td>{{r.person_name}}</td><td>{{r.phone}}</td><td><audio controls src="/audio/{{r.submission_id}}"></audio></td>
+<td>{{"%.2f"|format(r.duration_seconds)}} s</td><td>{{r.sample_rate_hz}} Hz</td>
+<td>{{"%.1f"|format(r.bitrate_kbps or 0)}} kbps</td><td>{{r.loudness_db or "n/a"}} dB</td><td>{{r.noise_estimate}}</td></tr>
+{% endfor %}</table></main></body></html>

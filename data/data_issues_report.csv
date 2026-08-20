@@ -1,0 +1,53 @@
+source,row,type,action,details
+gig_workers,12,blank_row,dropped,Completely blank row
+gig_workers,20,column_shift,repaired,Reconstructed shifted Isha Chopra row.
+cbnexus,16,repeated_header,dropped,Header repeated inside data.
+naukri,2,ctc_unit,normalized,CTC 417964.0 interpreted as annual INR; stored in LPA.
+naukri,3,ctc_unit,normalized,CTC 332456.0 interpreted as annual INR; stored in LPA.
+naukri,4,ctc_unit,normalized,CTC 775670.0 interpreted as annual INR; stored in LPA.
+naukri,5,ctc_unit,normalized,CTC 654699.0 interpreted as annual INR; stored in LPA.
+naukri,6,ctc_unit,normalized,CTC 4.2 interpreted as LPA; stored in LPA.
+naukri,7,ctc_unit,normalized,CTC 806661.0 interpreted as annual INR; stored in LPA.
+naukri,8,ctc_unit,normalized,CTC 8.3 interpreted as LPA; stored in LPA.
+naukri,9,ctc_unit,normalized,CTC 472935.0 interpreted as annual INR; stored in LPA.
+naukri,10,ctc_unit,normalized,CTC 366311.0 interpreted as annual INR; stored in LPA.
+naukri,11,ctc_unit,normalized,CTC 871686.0 interpreted as annual INR; stored in LPA.
+naukri,12,ctc_unit,normalized,CTC 864237.0 interpreted as annual INR; stored in LPA.
+naukri,13,ctc_unit,normalized,CTC 1195422.0 interpreted as annual INR; stored in LPA.
+naukri,14,future_date,flagged,Applied Date 2026-08-21 is after 2026-08-20.
+naukri,14,ctc_unit,normalized,CTC 5.1 interpreted as LPA; stored in LPA.
+naukri,15,ctc_unit,normalized,CTC 826748.0 interpreted as annual INR; stored in LPA.
+naukri,16,ctc_unit,normalized,CTC 6.1 interpreted as LPA; stored in LPA.
+naukri,17,future_date,flagged,Applied Date 2026-08-22 is after 2026-08-20.
+naukri,17,ctc_unit,normalized,CTC 5.8 interpreted as LPA; stored in LPA.
+naukri,18,ctc_unit,normalized,CTC 11.2 interpreted as LPA; stored in LPA.
+naukri,19,ctc_unit,normalized,CTC 7.6 interpreted as LPA; stored in LPA.
+naukri,20,ctc_unit,normalized,CTC 1181149.0 interpreted as annual INR; stored in LPA.
+naukri,21,ctc_unit,normalized,CTC 2.4 interpreted as LPA; stored in LPA.
+naukri,22,ctc_unit,normalized,CTC 10.0 interpreted as LPA; stored in LPA.
+naukri,23,ctc_unit,normalized,CTC 327287.0 interpreted as annual INR; stored in LPA.
+naukri,24,ctc_unit,normalized,CTC 11.9 interpreted as LPA; stored in LPA.
+naukri,25,ctc_unit,normalized,CTC 6.1 interpreted as LPA; stored in LPA.
+naukri,26,ctc_unit,normalized,CTC 410629.0 interpreted as annual INR; stored in LPA.
+naukri,27,ctc_unit,normalized,CTC 7.8 interpreted as LPA; stored in LPA.
+naukri,28,ctc_unit,normalized,CTC 6.6 interpreted as LPA; stored in LPA.
+naukri,29,ctc_unit,normalized,CTC 775796.0 interpreted as annual INR; stored in LPA.
+naukri,30,ctc_unit,normalized,CTC 792474.0 interpreted as annual INR; stored in LPA.
+naukri,31,ctc_unit,normalized,CTC 6.1 interpreted as LPA; stored in LPA.
+naukri,32,ctc_unit,normalized,CTC 7.6 interpreted as LPA; stored in LPA.
+naukri,33,ctc_unit,normalized,CTC 1160787.0 interpreted as annual INR; stored in LPA.
+naukri,34,ctc_unit,normalized,CTC 2.7 interpreted as LPA; stored in LPA.
+naukri,35,future_date,flagged,Applied Date 2026-11-08 is after 2026-08-20.
+naukri,35,ctc_unit,normalized,CTC 1135514.0 interpreted as annual INR; stored in LPA.
+naukri,36,ctc_unit,normalized,CTC 11.4 interpreted as LPA; stored in LPA.
+naukri,37,ctc_unit,normalized,CTC 7.8 interpreted as LPA; stored in LPA.
+naukri,38,ctc_unit,normalized,CTC 626740.0 interpreted as annual INR; stored in LPA.
+naukri,39,ctc_unit,normalized,CTC 9.3 interpreted as LPA; stored in LPA.
+naukri,40,ctc_unit,normalized,CTC 5.9 interpreted as LPA; stored in LPA.
+naukri,41,ctc_unit,normalized,CTC 621881.0 interpreted as annual INR; stored in LPA.
+naukri,42,future_date,flagged,Applied Date 2026-12-07 is after 2026-08-20.
+naukri,42,ctc_unit,normalized,CTC 10.3 interpreted as LPA; stored in LPA.
+naukri,43,ctc_unit,normalized,CTC 694306.0 interpreted as annual INR; stored in LPA.
+cross-source,,same_name_conflict,kept_separate,'arjun mehta' appears with different identifiers; name alone was not used for merging.
+cross-source,,same_name_conflict,kept_separate,'nikhil chopra' appears with different identifiers; name alone was not used for merging.
+cross-source,,same_name_conflict,kept_separate,'deepak nair' appears with different identifiers; name alone was not used for merging.

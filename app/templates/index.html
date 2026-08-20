@@ -1,0 +1,12 @@
+<!doctype html>
+<html><head><title>ConsultBae Audio Collection</title><link rel="stylesheet" href="/static/style.css"></head>
+<body><main><h1>ConsultBae Audio Collection</h1>
+{% with messages=get_flashed_messages() %}{% for m in messages %}<p class="msg">{{m}}</p>{% endfor %}{% endwith %}
+<form method="post" enctype="multipart/form-data">
+<label>Name</label><input name="name" required>
+<label>Phone</label><input name="phone" required>
+<label>Audio file</label><input type="file" name="audio" accept="audio/*" required>
+<button type="submit">Submit recording</button>
+</form>
+<p><a href="/submissions">View all submissions →</a></p>
+</main></body></html>
