@@ -49,13 +49,10 @@ Some records represented the same or very similar entities but were not necessar
 
 3. Inconsistent Text Values->
 Some textual fields contained differences such as:
-Different capitalization
-Extra whitespace
-Formatting differences
+Different capitalization,
+Extra whitespace,
+Formatting differences,
 Slight variations in how the same value was written
-
-These differences could cause two logically identical values to appear different to a simple comparison.
-
 
 4. Missing or Incomplete Values->
 Some records contained missing or incomplete values. Instead of assuming that a missing value represented a particular value, I preserved the missing state where appropriate and handled it during processing.
